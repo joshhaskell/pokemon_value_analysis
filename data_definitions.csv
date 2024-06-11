@@ -1,0 +1,46 @@
+Column,Description
+card_type_id,Unique identifier for each card created using card_id and price_type
+name,Name of the card
+hp,Hit points of the card
+rarity,"Rarity of the card (e.g., common, rare)"
+artist,Name of the artist who illustrated the card
+supertype,"Supertype of the card (Pokemon, Trainer, Energy)"
+evolvesFrom,Name of the card this pokemon evolves from
+flavorText,Text describing the card different features on card
+convertedRetreatCost,Converted retreat cost in the game
+regulationMark,Regulation mark for tournament legality
+rules,Rules text providing gameplay information
+image_small,URL of the small image of the card
+image_large,URL of the large image of the card
+set_id,Unique identifier for the set the card belongs to
+set_name,Name of the set the card belongs to
+set_series,Series of the set the card belongs to
+set_printedTotal,Original number of printed cards in the set
+set_total,Current number of cards in the set (New cards can be added after original
+set_releaseDate,Release date of the set
+set_updatedAt,Last updated date of the set
+set_legalities_unlimited,Legal status in the unlimited format
+set_legalities_expanded,Legal status in the expanded format
+set_legalities_standard,Legal status in the standard format
+set_image_symbol,URL of the set symbol image
+set_image_logo,URL of the set logo image
+number,Number of the card within its set
+ancientTrait_name,Name of the ancient trait
+ancientTrait_text,Description of the ancient trait
+type_1,"Primary type of the card (e.g., Grass, Fire)"
+type_2,"Secondary type of the card (if any, e.g., Grass, Fire)"
+subtype_1,"First subtype of the card (e.g., VMAX, VSTAR)"
+subtype_2,"Second subtype of the card (if any, e.g., GX, ex)"
+subtype_3,"Third subtype of the card (if any, GX, ex)."
+subtype_4,Fourth subtype of the card (if any).
+nationalPokedexNumber,National Pokedex number for Pokémon cards
+num_abilities,Number of abilities the card has
+num_attacks,Number of attacks the card has
+num_resistances,Number of resistances the card has
+num_weaknesses,Number of weaknesses the card has
+price_type,"Type of price (e.g., market, low, mid, high)"
+low,Low listed price of the card
+mid,Mid listed price of the card
+high,High listed price of the card
+market,Market price of the card based on recent transactions.
+directLow,Direct low price of the card
